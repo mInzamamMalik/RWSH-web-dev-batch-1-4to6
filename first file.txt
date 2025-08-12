@@ -1,4 +1,0 @@
-this is my first text file in a git repo. 
-
-
-kugdfsdgfsd sdlkjfhsdlkfjhsd
