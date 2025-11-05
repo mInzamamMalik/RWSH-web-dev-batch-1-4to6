@@ -10,13 +10,14 @@
 <body>
 
 
+
     <form>
-        <p>this is an admission form for an institute.</p>
+        <h2>this is an admission form for an institute.</h2>
 
 
         <p>First Name: <input type="text" size="15" maxlength="10"> </p>
         <p>Last Name: <input type="text" size="15" maxlength="10"> </p>
-        
+
         <p>Phone/Email: <input type="text" size="15" maxlength="10" required> </p>
 
         <p>your password: <input type="password" size="15" maxlength="30"> </p>
@@ -30,7 +31,141 @@
 
     </form>
 
+    <hr>
 
+
+    <form>
+
+        <h2>Book a car</h2>
+
+
+        <div style="display: flex;">
+
+            <span>
+                <label for="firstnameinput"> first name: </label> <br>
+                <label for="lastnameinput"> last name: </label> <br>
+                <label for="emailinput"> email: </label> <br>
+            </span>
+
+
+
+            <span>
+                <input id="firstnameinput" type="text"> <br>
+                <input id="lastnameinput" type="text"> <br>
+                <input id="emailinput" type="email"> <br>
+            </span>
+
+        </div>
+
+
+
+        <p>
+            Please select your car brand:
+            <br />
+            <input type="radio" name="brand" value="toyota" /> Toyota
+            <input type="radio" name="brand" value="honda" /> Honda
+            <input type="radio" name="brand" value="kia" /> Kia
+        </p>
+
+        <p>
+            Please select your car brand:
+            <br />
+            <select required>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="kia">Kia</option>
+            </select>
+        </p>
+
+        <p>
+            Petrol or Diesel:
+            <br />
+            <input type="radio" name="gas" value="gasoline" checked /> Petrol
+            <input type="radio" name="gas" value="diesel" /> Diesel
+        </p>
+
+        <p>
+            Select options:
+            <br />
+            <input type="checkbox" name="sunroof" value="true" checked /> Sunroof
+            <input type="checkbox" name="gps" value="true" checked /> GPS
+            <input type="checkbox" name="heatedseats" value="true" /> Heated Seats
+            <input type="checkbox" name="aircon" value="true" /> Air Conditioning
+
+        </p>
+
+
+        <p>
+            car engine options:
+            <br />
+            checkbox 1: <input type="checkbox" />
+            <br />
+            checkbox 1: <input type="checkbox" />
+            <br />
+            checkbox 1: <input type="checkbox" />
+            <br />
+            checkbox 1: <input type="checkbox" />
+            <br />
+            checkbox 1: <input type="checkbox" />
+            <br />
+            checkbox 1: <input type="checkbox" />
+            <br />
+            checkbox 1: <input type="checkbox" />
+            <br />
+            checkbox 1: <input type="checkbox" />
+            <br />
+        </p>
+
+
+        <p>Do you play any of the following instruments?
+            (You can select more than one option by holding
+            down control on a PC or command key on a Mac
+            while selecting different options.)</p>
+        <select name="instruments" size="3" multiple="multiple">
+            <option value="guitar" selected="selected">
+                Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+
+
+        <p>
+            select your desired car photo if any: <br>
+            <input type="file" accept=".jpg, .png, .avif" />
+        </p>
+
+
+
+        <!-- <input type="submit" value="Submit"> -->
+
+        <input type="image" src="./imgaes/submit.avif" alt="Submit" width="200px">
+
+
+
+
+    </form>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 </body>
 
