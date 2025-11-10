@@ -9,6 +9,13 @@
 
 <body>
 
+    <!-- navigation bar for home gallery, and contact pages -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
 
 
     <form>
@@ -143,10 +150,132 @@
 
 
 
+        <!-- date input -->
+        <p>
+            Select your preferred booking date:
+            <input type="date" />
+        </p>
+
+
+        <!-- search input -->
+        <p>
+            Search for your desired car model:
+            <input type="search" placeholder="Search car model..." />
+        </p>
+
+        <!-- search input with fix 5 search suggestions -->
+        <p>
+            Search for your desired car color:
+            <input list="carcolors" placeholder="Search car color..." />
+            <datalist id="carcolors">
+                <option value="Red" />
+                <option value="Blue" />
+                <option value="Green" />
+                <option value="Black" />
+                <option value="White" />
+            </datalist>
+        </p>
+
 
     </form>
 
 
+    <!-- this is a attendance data of students who were present in the month of january -->
+    <table>
+        <caption>Attendance Data - January</caption>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Days Present</th>
+                <th>Days Absent</th>
+                <th>Total Days</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Johnson</td>
+                <td>20</td>
+                <td>1</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Bob Smith</td>
+                <td>18</td>
+                <td>3</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Charlie Brown</td>
+                <td>21</td>
+                <td>0</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- english most important word meaning list -->
+    <table>
+        <caption>English Important Word Meanings</caption>
+        <thead>
+            <tr>
+                <th>Word</th>
+                <th>Meaning</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aberration</td>
+                <td>A departure from what is normal or expected.</td>
+            </tr>
+            <tr>
+                <td>Capitulate</td>
+                <td>To surrender or give in to demands.</td>
+            </tr>
+            <tr>
+                <td>Debilitate</td>
+                <td>To weaken or make feeble.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- radio button for color choice red, blue, black, and red -->
+    <form>
+        <h2>Select Your Favorite Color</h2>
+        <input type="radio" id="red" name="color" value="red">
+        <label for="red">Red</label><br>
+
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="blue">Blue</label><br>
+
+        <input type="radio" id="black" name="color" value="black">
+        <label for="black">Black</label><br>
+
+        <input type="radio" id="green" name="color" value="green">
+        <label for="green">Green</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1810.1875344282828!2d66.99468112333557!3d24.85103640378234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315f8df047c73%3A0xc09c94c5a0339199!2sMadina%20Halwa%20Poori!5e0!3m2!1sen!2s!4v1762781630081!5m2!1sen!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <iframe
+        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMInzamamMalik%2Fposts%2Fpfbid02X3Zd7T3iHmCivwKeLxJi2aF29kTA1u2Tza9joaFEKRzuLnMDrW7CJMAtHrXy9F3ml&show_text=true&width=500"
+        width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
 
     <br>
     <br>
@@ -161,12 +290,6 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
 </body>
 
 </html>
