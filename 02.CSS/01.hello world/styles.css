@@ -1,0 +1,36 @@
+
+
+
+.important {
+    color: rgb(253, 123, 123);
+    font-weight: bold;
+}
+
+/* #first-heading{
+    color: rgb(59, 59, 144);
+} */
+
+h1#first-heading{
+    color: rgb(59, 59, 144);
+}
+h1#first-heading{
+    color: rgb(85, 148, 56);
+}
+
+
+p.important{
+    font-size: 20px;
+}
+
+
+
+.box1 > p {
+    color: rgb(34, 139, 34);
+}
+.box1 > p > b{
+    color: rgb(255, 69, 0);
+}
+
+.box1 b{
+    color: rgb(75, 0, 130) !important;
+}
